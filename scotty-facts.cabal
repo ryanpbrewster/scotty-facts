@@ -1,0 +1,17 @@
+name:                scotty-facts
+version:             0.0.1
+synopsis:            Simple facts web server
+homepage:            https://github.com/ryanpbrewster/scotty-facts
+license:             MIT
+author:              Ryan Brewster
+maintainer:          ryanpbrewster@gmail.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable server
+  main-is:             Main.hs
+  -- other-modules:       
+  build-depends:       base ==4.5.*
+                     , scotty
+                     , text
